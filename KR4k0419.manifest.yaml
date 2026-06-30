@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR4k0419/v1
+canonical_location: https://kanripo.org/bkk/KR4k0419/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 鄧粲晉紀一卷
+  identifiers:
+    krp: KR4k0419
+  tags:
+    kr-categories: KR4k
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4k0419.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR4k0419_001.yaml, hash: 'sha256:d97680665a72918a5dd4aca9859934cc40f5e68230a62cc68fbe2a426a6515e5'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4k0419_001.markers.yaml, hash: 'sha256:96f9aef48193c331e1ac9ff5c8142a9a661622de8a7138530cef1de43754cc10'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4k0419_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 4760
+  label: 鄧粲晉紀
+  type: section
+  level: 1
+hash: sha256:da091a9458acb7d98c409f8c8579b109558d89b778c90f86ba4404b95a318b43
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
